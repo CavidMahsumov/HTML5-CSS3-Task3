@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200&family=Mochiy+Pop+P+One&family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100&family=Merriweather+Sans:wght@300&display=swap');
+#Container{
+    background-color: darkgrey;
+}
+
+body{
+    margin: 0px;
+    background-color: deepskyblue;
+}
+nav{
+    height:8vh;
+    text-align: center;  
+    box-sizing: border-box;
+}
+#Container li{
+    display: inline-block;
+}
+#Img2{
+    width: 50px;
+    height: 50px;
+}
+ol{
+    list-style: none;
+}
+#Container li a{
+    font-size: 30px;
+    color: white;
+    font-family: 'Inconsolata', monospace;
+    font-family: 'Mochiy Pop P One', sans-serif;
+    font-family: 'Pacifico', cursive;
+}
+#Container li i{
+    width: 60px;
+    height: 60px;
+}
+
+#Div2{
+    background-color: white;
+   
+    
+}
+#Div2 ol{
+    list-style:none;
+    display:inline-block;
+}
+
+#Div2 li{
+    display: inline-block;
+
+}
+#Div2 li a{
+    font-size: 30px;
+    margin-right: 20px;
+    
+}
+#Div2 li p{
+    width: 50px;
+    height: 20px;
+    display: inline-block;
+    margin-right: 30px;
+    border-radius: 4px;
+    background-color: lightgray;
+    box-sizing: border-box;
+}
+#Div2 Nav{
+    display: inline-block;
+    margin-left: 30em;
+}
+
+#Div2 li #Add{
+    background-color: lightblue;
+    border-radius: 4px;
+    height: 40px;
+}
+#Div2 #A2{
+    display: inline-block;
+    font-size: 20px;
+    border-radius: 13px;
+    background-color: skyblue;
+    height: 40px;
+    padding-top: 20px;
+    width: 10em;
+    text-align: center;
+    margin-left: 50px !important; 
+}
+
+#Div3 nav{
+    
+    text-align: center;
+    display: inline-block;
+    margin-left: 36em;
+
+}
+#Div3 ol{
+    display: inline-block;
+   
+}
+#Div3 li{
+    display: inline-block;
+    margin: auto;
+    
+}
+#Div3 li p{
+    font-size: 20px;
+    margin-right: 20px;
+
+}
+#Div3 i{
+
+    
+    margin-right: 30px;
+
+}
+#Div3 #A3{
+    display: inline-block;
+    font-size: 17px;
+    background-color: rgb(29, 146, 29);
+    color: white;
+    padding-top: 20px;
+    width: 10em;
+    height: 40px;
+    text-align:  center;
+    border-radius: 16px;
+    margin-left: 50px;
+}
+
+#Div4{
+    text-align: center;
+ 
+    margin-top: 8em;
+}
+
+#Div4 ol li{
+    text-align: center;
+    display: inline-block;
+    list-style-position: inside;
+    border:5px solid gray;
+}
+#Div4 ol li p{
+    margin-left: 10px;
+    display: inline-block;
+    margin-right: 12em;
+    margin-top: 30px;
+    font-size: 20px;
+    box-sizing: border-box;
+    font-family: 'Barlow Condensed', sans-serif;
+font-family: 'Merriweather Sans', sans-serif;
+    font-weight: 200;
+}
+#Div4 #ol2 li{
+    text-align: center;
+    display: inline-block;
+    list-style-position: inside;
+    border: 5px solid gray ;
+}
+#Div4 ol li i{
+    margin-left: 20px;
+    margin-bottom: 5px;
+}
+
+#Div #ol2{
+    box-sizing:content-box;
+    
+}
+
+#Div4{
+    box-sizing: border-box;
+}
+#Div4 #ol2 img{
+    border-radius: 5px;
+    width: 50px;
+    height: 50px;
+    padding-top: 15px;
+    margin-right: 10px;
+}
+#Div4 #ol2 p{
+    font-size: 19.5px;
+    font-weight: 180;
+    margin-right: 12em;
+}
+#Div4  #Special{
+    border-radius: 14px;
+    background-color: red;
+    height: 45px;
+    margin-left: 70px;
+    width: 10em;
+}
+
+#Div4:hover #ol2:hover{
+    transform:scale(1.1);
+    filter:blur(5);
+    opacity:1;
+    box-shadow:0 8px 20px 0px rgba(0,0,0,0.125);
+    transition-duration: 1s;
+  }
+
+#Div4 #ol2 img:hover{
+    transform: translateY(0) scale(3.2);
+}
+#Div3 #A3:hover{
+    transform:scale(1.1);
+    filter:blur(5);
+    opacity: 1;
+    transition-duration: 1s;
+}
+    
+#Div2 #A2:hover{
+    transform:scale(1.1);
+    filter:blur(5);
+    opacity: 1;
+    transition-duration: 1s;
+}
+
+#Container a:hover{
+    transition-duration: 2s;
+    color: red;
+    transform: scale(1.1);
+    filter: blur(5);
+    opacity:1;
+}
+#Div2 a:hover{
+    transition-duration: 1s;
+    color: red;
+    filter: blur(5);
+    opacity:1;
+}
+#Container i:hover{
+    transform:scale(2.1);
+    filter:blur(5);
+    opacity: 1;
+    transition-duration: 1s;
+}

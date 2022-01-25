@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<style>
+   
+     body{
+         margin: 0;
+     }
+     .dark-mode {
+     background-color: black;
+     color: white;
+ }
+    
+ 
+ 
+ 
+ </style>
+<body>
+    <button  onclick="darkMode()">Darkmode</button>
+    <button onclick="lightMode()">LightMode</button>
+    <script>
+      function darkMode() {
+        var element = document.body;
+        var content = document.getElementById("DarkModetext");
+        element.className = "dark-mode";
+        content.innerText = "Dark Mode is ON";
+      }
+      function lightMode() {
+        var element = document.body;
+        var content = document.getElementById("DarkModetext");
+        element.className = "DublicateStyle.css";
+        content.innerText = "Dark Mode is OFF";
+      }
+    </script>
+
+    <div id="Container">
+
+        <nav>
+            <ol>
+                <li id>
+                    <i class="fas fa-users"></i>
+                    <a>People</a>
+                </li>
+                <li>
+                    <i class="fas fa-inbox"></i>
+                    <a>
+                        Inbox
+                    </a>
+                </li>
+                <li>
+                    <i class="fas fa-calendar"></i>
+                    <a>Calendar</a>
+                </li>
+                <li>
+                    <i class="fas fa-copy"></i>
+                    <a>
+                        Deals
+                    </a>
+                </li>
+                <li>
+                    <i class="far fa-chart-bar"></i>
+                    <a>Activity</a>
+                </li>
+                <li>
+                    <i class="fas fa-user"></i>
+                    <a>Admin</a>
+                </li>
+            </ol>
+        </nav>
+    </div>
+    <div id="Div2">
+        <nav>
+            <ol>
+                <li>
+                    <a>All People</a>
+                    <p>96</p>
+                </li>
+                <li>
+                    <a>New</a>
+                    <p>23</p>
+                </li>
+                <li>
+                    <a>Hot</a>
+                    <p>6</p>
+                </li>
+                <li>
+                    <a>Clinets</a>
+                    <p>18</p>
+                </li>
+               
+            </ol>
+        </nav>
+        <a id="A2">+ Add Person</a>
+    </div>
+
+    <div id="Div3">
+        <nav>
+            <ol>
+                <li>
+                    <p>Showing all 23 People</p>
+                </li>
+                <li>
+                    <i class="fas fa-phone"></i>
+                    <i class="fas fa-envelope"></i>
+                </li>
+                <li><p>More Actions </p></li>
+            </ol>
+        </nav>
+        <a id="A3">+ Save List</a>
+    </div>
+
+
+    <div id="Div4">
+        <ol>
+            <li>
+                <p>Name </p>
+                <i class="fas fa-sort-down"></i>
+
+            </li>
+            <li>
+                <p>Stage </p>
+                <i class="fas fa-sort"></i>
+                
+            </li>
+            <li>
+                
+                <p>Last Contact</p>
+                <i class="fas fa-sort-down"></i>
+
+            </li>
+            <li>
+
+                <p>Next Task</p>
+            </li>
+                        
+        </ol>
+        <ol id="ol2">
+            <li style="box-sizing: content-box;">
+                <i class="fas fa-sort-down"></i>
+                <img src="Images/user1.png">
+                <p>Cavid Mahsumov</p>
+                <p>Lead</p>
+                <p>3 min ago</p>
+                <p id="Special">Thank You</p>
+
+            </li>
+        </ol>
+        <ol id="ol2">
+            <li style="box-sizing: content-box;">
+                <i class="fas fa-sort-down"></i>
+                <img src="Images/user2.png">
+                <p>Luisu Monteiro</p>
+                <p>Nurture</p>
+                <p>4 hrs ago</p>
+                <p id="Special">Thank You</p>
+
+            </li>
+        </ol>
+        <ol id="ol2">
+            <li style="box-sizing: content-box;">
+                <i class="fas fa-sort-down"></i>
+                <img src="Images/user3.png">
+                <p>Andrev Oliverya</p>
+                <p>Closed</p>
+                <p>Yesterday</p>
+                <p id="Special">Thank You</p>
+
+            </li>
+        </ol>
+        
+        
+    </div>
+
+</body>
+
+</html>
